@@ -1,0 +1,228 @@
+.report-years-dropdown {
+	margin: 15px 30px;
+	text-align: center;
+}
+.report-years-dropdown .dropdown-menu {
+	margin-top: -1px;
+	font-size: 16px;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 6px 12px transparent;
+	box-shadow: 0 6px 12px transparent;	
+}
+.report-years-dropdown>.dropdown .dropdown-toggle {
+	display: block;
+	padding: 0 15px;
+	background: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 0px;
+	color: #666;
+	line-height: 40px;
+	font-size: 20px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.report-years-dropdown>.dropdown .dropdown-toggle:hover {
+	color: #428bca;
+}
+
+.report-list-tree {
+	width: 180px;
+}
+.time_tree_container {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	margin-right: 0;
+	overflow: hidden;
+	width: auto;
+	height: auto;		
+}
+
+.timetree-childlist {
+	padding:0;
+	margin:0;
+	list-style:none
+}
+.reports-selectyear {
+	width:176px;
+	margin:0 auto 18px
+}
+.reports-selectyear>.dropdown .dropdown-toggle {
+	display:block;
+	padding:0 15px;
+	background:#fff;
+	border:1px solid #dfdddd;
+	border-radius:20px;
+	color:#666;
+	line-height:40px;
+	font-size:24px;
+	text-decoration:none
+}
+.reports-selectyear>.dropdown:hover .dropdown-toggle {
+	color:#1880c8;
+	border-radius:20px 20px 0 0;
+	border-color:#a3adba
+}
+.reports-selectyear>.dropdown .dropdown-menu>li>a {
+	font-size:14px;
+	line-height:26px
+}
+.reports-selectyear>.dropdown .dropdown-toggle .caret {
+	border-width:6px;
+	margin-left:8px;
+	border-color:#666 #fff #fff
+}
+.reports-selectyear>.dropdown .dropdown-toggle:hover .caret,.reports-selectyear>.dropdown:hover .dropdown-toggle .caret {
+	border-color:#1880c8 #fff #fff
+}
+.reports-selectyear .dropdown-menu {
+	width:100%;
+	border-width:0 1px 1px;
+	margin:0;
+	padding-bottom:0;
+	border-radius:0 0 20px 20px
+}
+.reports-selectyear .dropdown-menu>li:last-child a {
+	border-radius:0 0 20px 20px
+}
+.time-circle {
+	display:inline-block;
+	border-radius:50%;
+	width:10px;
+	height:10px;
+	font-size:0;
+	border:2px solid #fff;
+	background:#b6b9c4;
+	box-shadow:0 0 0 1px #dcdfdf
+}
+.timetree-head.active .time-circle,.timetree-weeklist>li.active>.time-circle {
+	background:#1880c8!important;
+	box-shadow:0 0 0 1px #98ccef!important
+}
+.timetree-head.month .time-circle,.timetree-head.season .time-circle,.timetree-head.halfyear .time-circle,.timetree-head.endyear .time-circle {
+	background:#85bd2a;
+	box-shadow:0 0 0 1px #b9d980
+}
+.timetree-head.season .time-circle {
+	width:16px;
+	height:16px
+}
+.timetree-head.halfyear .time-circle,.timetree-head.endyear .time-circle {
+	width:20px;
+	height:20px
+}
+.reports-timetree .time-circle {
+	position:absolute;
+	cursor:pointer
+}
+.reports-timetree {
+	width:180px;
+	padding:5px 5px 0 90px;
+	float:right
+}
+.timetree-head {
+	border-right:1px solid #b9e374;
+	position:relative;
+	right:84px;
+	text-align:right;
+	padding-right:18px;
+	height:46px
+}
+.timetree-head.active {
+	border-color:#d0d3de;
+	color:#1880c8
+}
+.timetree-head:last-child {
+	border-color:transparent
+}
+.timetree-head .time-text {
+	display:block;
+	position:relative;
+	top:-10px;
+	cursor:pointer
+}
+.timetree-head .time-text:hover {
+	color:#1880c8
+}
+.timetree-head .time-text strong {
+	position:relative;
+	top:1px
+}
+.timetree-head.season .time-text {
+	padding-top:6px
+}
+.timetree-head.halfyear .time-text,.timetree-head.endyear .time-text {
+	padding-top:7px
+}
+.timetree-head .time-circle {
+	right:-6px;
+	top:0
+}
+.timetree-head.season .time-circle {
+	right:-9px
+}
+.timetree-head.halfyear .time-circle,.timetree-head.endyear .time-circle {
+	right:-11px
+}
+.timetree-head strong {
+	font-size:20px;
+	margin-right:3px
+}
+.timetree-weeklist {
+	padding:0;
+	margin:0;
+	list-style:none;
+	border-left:1px solid #d0d3de
+}
+.timetree-weeklist>li {
+	position:relative
+}
+.timetree-weeklist .time-circle {
+	top:-10px;
+	left:-6px
+}
+.timetree-weeklist>li>a {
+	height:32px;
+	line-height:30px;
+	display:block;
+	margin:0 7px 0 16px;
+	text-align:center;
+	position:relative;
+	top:-21px;
+	color:#666;
+	text-decoration:none;
+	border:1px solid rgba(0,0,0,0)
+}
+.timetree-weeklist>li>a span {
+	margin:0 5px
+}
+.timetree-weeklist>li>a:hover,.timetree-weeklist>li.active>a {
+	color:#1880c8
+}
+.timetree-weeklist>li.active>a {
+	background-color:#fff;
+	border-color:#80c1ed;
+	border-radius:3px
+}
+.timetree-weeklist>li>a .arrow-s,.timetree-weeklist>li>a .arrow-b {
+	content:"";
+	height:0;
+	width:0;
+	position:absolute;
+	top:9px;
+	left:-6px;
+	border-top:6px solid rgba(0,0,0,0);
+	border-bottom:6px solid rgba(0,0,0,0);
+	border-right:6px solid #73b7e4;
+	display:none
+}
+.timetree-weeklist>li>a .arrow-b {
+	left:-5px;
+	top:10px;
+	border-width:5px;
+	border-right-color:#fff
+}
+.timetree-weeklist>li.active>a .arrow-s,.timetree-weeklist>li.active>a .arrow-b {
+	display:block
+}
