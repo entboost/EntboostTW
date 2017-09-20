@@ -1,2 +1,0 @@
-<?php
-$PTRType = 0;
